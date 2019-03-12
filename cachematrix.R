@@ -2,6 +2,12 @@
 ## functions do
 
 ## Write a short comment describing this function
+  #use function set to set the matrix to m
+  #use function get to return the matrix
+  #use function setinv to set the inverse matrix to inverse_matrix
+  #use function getinv to return the inverse matrix
+  #return a list of functions
+
 
 makeCacheMatrix <- function(x = matrix()) {
  
@@ -41,6 +47,12 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+        #set the inverse to m_inv 
+        #return inverse if set otherwise compute it
+        #if m_inv is null then calculate the inverse of the matrix
+        #set the inverse
+        #return the inverse
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
