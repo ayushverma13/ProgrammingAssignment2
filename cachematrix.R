@@ -25,13 +25,13 @@ makeCacheMatrix <- function(x = matrix()) {
         #use function setinv to set the inverse matrix to i
         
         setinv<-function(inverse){
-                i<<-inverse
+                inverse_matrix<<-inverse
         }
         
         #use function getinv to return the inverse matrix
         
          getinv<-function(){
-                i
+                inverse_matrix
         }
         
         #returning a list of functions
